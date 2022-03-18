@@ -141,7 +141,7 @@ class Gallery extends Component {
           ))}
         </div>
 
-        <button className="btn btn-success" onClick={() => this.Add()}>
+        <button className="btn btn-success" onClick={this.Add}>
           Tambah Data
         </button>
         <button className="btn btn-danger" onClick={() => this.Drop()}>

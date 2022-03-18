@@ -6,9 +6,37 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Link to="/">Home</Link> |<Link to="/aboutMe">About Me</Link> |
-        <Link to="/art">Art</Link> |<Link to="/contact">Contact</Link> |
-        <Link to="/gallery">Gallery</Link> |
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <Link to="/" className="nav-link text-white bg-dark">
+                  Home
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link to="/aboutMe" className="nav-link text-white bg-dark">
+                  About Me
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link to="/art" className="nav-link text-white bg-dark">
+                  Art
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link to="/contact" className="nav-link text-white bg-dark">
+                  Contact
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link to="/gallery" className="nav-link text-white bg-dark">
+                  Gallery
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
         <p>
           <Main />
         </p>
