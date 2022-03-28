@@ -34,6 +34,11 @@ class App extends React.Component {
                   Gallery
                 </Link>
               </li>
+              <li class="nav-item">
+                <Link to="/employee" className="nav-link text-white bg-dark">
+                  Form Employee
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
